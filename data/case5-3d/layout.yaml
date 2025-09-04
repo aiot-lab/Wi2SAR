@@ -1,0 +1,396 @@
+-
+  loc_tag: BPc0_1
+  azimuth: 0
+  elevation: 90
+
+-
+  loc_tag: BPc0_2
+  azimuth: 0
+  elevation: 60
+
+-
+  loc_tag: BP60_1
+  azimuth: 0
+  elevation: 30
+
+- 
+  loc_tag: BP60_2
+  azimuth: 0
+  elevation: 0
+
+-
+  loc_tag: BP6c_1
+  azimuth: 0
+  elevation: -30
+
+- 
+  loc_tag: BP6c_2
+  azimuth: 0
+  elevation: -60
+
+-
+  loc_tag: BP8c_1
+  azimuth: 0
+  elevation: -90
+
+-
+  loc_tag: BP8c_2
+  azimuth: -999
+  elevation: -999
+
+-
+  loc_tag: Tc0_1
+  azimuth: -60
+  elevation: 30
+
+-
+  loc_tag: Tc0_2
+  azimuth: 0
+  elevation: 30
+
+-
+  loc_tag: T60_1
+  azimuth: 60
+  elevation: 30
+
+- 
+  loc_tag: T60_2
+  azimuth: 120
+  elevation: 30
+
+-
+  loc_tag: T8c_1
+  azimuth: -30
+  elevation: 60
+
+-
+  loc_tag: T8c_2
+  azimuth: -30
+  elevation: 90
+
+-
+  loc_tag: T6c_1
+  azimuth: 180
+  elevation: 30
+
+- 
+  loc_tag: T6c_2
+  azimuth: 240
+  elevation: 30
+
+-
+  loc_tag: T34_1
+  azimuth: 90
+  elevation: 60
+
+-
+  loc_tag: T34_2
+  azimuth: 210
+  elevation: 60
+
+-
+  loc_tag: BPc0_1_10
+  azimuth: 0
+  elevation: 80
+
+-
+  loc_tag: BPc0_2_10
+  azimuth: 0
+  elevation: 50
+
+-
+  loc_tag: BP60_1_10
+  azimuth: 0
+  elevation: 20
+
+- 
+  loc_tag: BP60_2_10
+  azimuth: 0
+  elevation: -10
+
+-
+  loc_tag: BP6c_1_10
+  azimuth: 0
+  elevation: -40
+
+- 
+  loc_tag: BP6c_2_10
+  azimuth: 0
+  elevation: -70
+
+-
+  loc_tag: BPc0_1_20
+  azimuth: 0
+  elevation: 70
+
+-
+  loc_tag: BPc0_2_20
+  azimuth: 0
+  elevation: 40
+
+-
+  loc_tag: BP60_1_20
+  azimuth: 0
+  elevation: 10
+
+- 
+  loc_tag: BP60_2_20
+  azimuth: 0
+  elevation: -20
+
+-
+  loc_tag: BP6c_1_20
+  azimuth: 0
+  elevation: -50
+
+- 
+  loc_tag: BP6c_2_20
+  azimuth: 0
+  elevation: -80
+
+
+-
+  loc_tag: TRc0_1
+  azimuth: 330
+  elevation: 60
+
+-
+  loc_tag: TRc0_2
+  azimuth: 90
+  elevation: 60
+
+-
+  loc_tag: TR60_1
+  azimuth: 0
+  elevation: 30
+
+- 
+  loc_tag: TR60_2
+  azimuth: 60
+  elevation: 30
+
+-
+  loc_tag: TR8c_1
+  azimuth: 120
+  elevation: 30
+
+-
+  loc_tag: TR8c_2
+  azimuth: 180
+  elevation: 30
+
+-
+  loc_tag: TR6c_1
+  azimuth: 240
+  elevation: 30
+
+- 
+  loc_tag: TR6c_2
+  azimuth: 300
+  elevation: 30
+
+-
+  loc_tag: TR4c_1
+  azimuth: 210
+  elevation: 60
+
+-
+  loc_tag: TR4c_2
+  azimuth: 0
+  elevation: 90
+
+- 
+  loc_tag: BC1L1
+  azimuth: 120
+  elevation: 0
+- 
+  loc_tag: BC1L2
+  azimuth: 300
+  elevation: 0
+- 
+  loc_tag: BC1S1
+  azimuth: 180
+  elevation: 0
+- 
+  loc_tag: BC1S2
+  azimuth: 0
+  elevation: 0
+- 
+  loc_tag: BC1N1
+  azimuth: 240
+  elevation: 0
+- 
+  loc_tag: BC1N2
+  azimuth: 60
+  elevation: 0
+
+-
+  loc_tag: BPC4c0_1
+  azimuth: 0
+  elevation: 90
+
+-
+  loc_tag: BPC4c0_2
+  azimuth: 0
+  elevation: 60
+
+-
+  loc_tag: BPC460_1
+  azimuth: 0
+  elevation: 30
+
+- 
+  loc_tag: BPC460_2
+  azimuth: 0
+  elevation: 0
+
+-
+  loc_tag: BPC46c_1
+  azimuth: 0
+  elevation: -30
+
+- 
+  loc_tag: BPC46c_2
+  azimuth: 0
+  elevation: -60
+
+-
+  loc_tag: BPC48c_1
+  azimuth: 0
+  elevation: -90
+
+-
+  loc_tag: BPC48c_2
+  azimuth: -999
+  elevation: -999
+
+-
+  loc_tag: BPC4c0_1_10
+  azimuth: 0
+  elevation: 80
+
+-
+  loc_tag: BPC4c0_2_10
+  azimuth: 0
+  elevation: 50
+
+-
+  loc_tag: BPC460_1_10
+  azimuth: 0
+  elevation: 20
+
+- 
+  loc_tag: BPC460_2_10
+  azimuth: 0
+  elevation: -10
+
+-
+  loc_tag: BPC46c_1_10
+  azimuth: 0
+  elevation: -40
+
+- 
+  loc_tag: BPC46c_2_10
+  azimuth: 0
+  elevation: -70
+
+-
+  loc_tag: BPC48c_1_10
+  azimuth: 0
+  elevation: -100
+
+-
+  loc_tag: BPC48c_2_10
+  azimuth: -999
+  elevation: -999
+
+-
+  loc_tag: BPC4c0_1_20
+  azimuth: 0
+  elevation: 70
+
+-
+  loc_tag: BPC4c0_2_20
+  azimuth: 0
+  elevation: 40
+
+-
+  loc_tag: BPC460_1_20
+  azimuth: 0
+  elevation: 10
+
+- 
+  loc_tag: BPC460_2_20
+  azimuth: 0
+  elevation: -20
+
+-
+  loc_tag: BPC46c_1_20
+  azimuth: 0
+  elevation: -50
+
+- 
+  loc_tag: BPC46c_2_20
+  azimuth: 0
+  elevation: -80
+
+-
+  loc_tag: BPC48c_1_20
+  azimuth: 0
+  elevation: -110
+
+-
+  loc_tag: BPC48c_2_20
+  azimuth: -999
+  elevation: -999
+
+
+-
+  loc_tag: BPC3_c0_1
+  azimuth: -60
+  elevation: 30
+
+-
+  loc_tag: BPC3_c0_2
+  azimuth: 0
+  elevation: 30
+
+-
+  loc_tag: BPC3_60_1
+  azimuth: 60
+  elevation: 30
+
+- 
+  loc_tag: BPC3_60_2
+  azimuth: 120
+  elevation: 30
+
+-
+  loc_tag: BPC3_8c_1
+  azimuth: -30
+  elevation: 60
+
+-
+  loc_tag: BPC3_8c_2
+  azimuth: -30
+  elevation: 90
+
+-
+  loc_tag: BPC3_6c_1
+  azimuth: 180
+  elevation: 30
+
+- 
+  loc_tag: BPC3_6c_2
+  azimuth: 240
+  elevation: 30
+
+-
+  loc_tag: BPC3_34_1
+  azimuth: 90
+  elevation: 60
+
+-
+  loc_tag: BPC3_34_2
+  azimuth: 210
+  elevation: 60
