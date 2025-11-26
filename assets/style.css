@@ -48,7 +48,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .section-padding {
@@ -296,7 +296,7 @@ nav.scrolled {
 /* Technique Carousel */
 .technique-carousel {
     position: relative;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 1rem;
@@ -320,7 +320,7 @@ nav.scrolled {
 .carousel-image {
     width: 100%;
     height: auto;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
     object-fit: contain;
     display: block;
     border-radius: 1rem;
@@ -421,7 +421,7 @@ nav.scrolled {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 3rem;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -567,7 +567,7 @@ nav.scrolled {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 3rem;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -821,7 +821,7 @@ footer p {
 .drone-sketch {
     max-width: 100%;
     height: auto;
-    max-height: 300px;
+    max-height: 450px;
     filter: invert(1) grayscale(1);
     /* Invert white bg to black, black lines to white */
     opacity: 0.9;
