@@ -1,10 +1,10 @@
 # Wi²SAR Project Website
 
-Landing page for the Wi²SAR (Wi-Fi-based Wilderness Search and Rescue) project.
+Landing page for the Wi²SAR (Drone-based Wireless System for Wilderness Search and Rescue) project.
 
 ## Overview
 
-This is the official website for Wi²SAR, a drone-based wireless system designed for wilderness search and rescue operations. The project leverages Wi-Fi technology for victim discovery and identification in challenging environments.
+This is the official website for Wi²SAR, a drone-based wireless system designed for wilderness search and rescue operations. The project leverages Wi-Fi technology for victim discovery and identification in challenging wilderness environments.
 
 ## Project Structure
 
@@ -37,9 +37,9 @@ wisar_website/
 
 ## Authors
 
-- Weiying Hou
-- Luca Jiang-Tao Yu
-- Chenshu Wu
+- [Weiying Hou](https://houwayne.github.io)
+- [Luca Jiang-Tao Yu](http://1ucayu.github.io/)
+- [Chenshu Wu](https://cswu.me)
 
 **Affiliation**: University of Hong Kong, AIoT Lab
 
@@ -54,4 +54,4 @@ This work is conditionally accepted by MobiCom 2026.
 ## Links
 
 - [GitHub Repository](https://github.com/aiot-lab/Wi2SAR)
-- [Author Websites](https://cswu.me)
+- [HKU AIoT Lab](https://aiot-lab.github.io/)
