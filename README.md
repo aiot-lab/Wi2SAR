@@ -15,14 +15,7 @@ wisar_website/
 │   ├── style.css          # Main stylesheet
 │   ├── main.js            # JavaScript functionality
 │   ├── images/            # All image assets
-│   │   ├── *_bg.png       # Background images
-│   │   ├── *_icon*.png    # Icon images
-│   │   ├── *.png          # Other images
-│   │   └── *.svg          # SVG graphics
 │   ├── videos/            # Video assets
-│   │   └── *.mp4          # Video files
-│   └── docs/              # Documentation
-│       └── *.tex          # LaTeX files (paper, abstract)
 └── README.md              # This file
 ```
 
