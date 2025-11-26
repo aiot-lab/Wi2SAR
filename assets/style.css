@@ -957,6 +957,15 @@ footer p {
     transform: translateX(-50%) translateY(0);
 }
 
+.author.hover-active {
+    color: var(--accent-color);
+}
+
+.author.hover-active .author-avatar {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
 /* Acceptance Note */
 .hero .acceptance-note {
     font-size: 0.75rem;
@@ -991,4 +1000,27 @@ footer p {
 
 .footer-logo:hover {
     opacity: 1;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        /* Better fit for mobile */
+    }
+}
+
+/* Hero Title Split Layout */
+.title-line-1 {
+    display: block;
+    text-align: left;
+}
+
+.title-break {
+    display: block;
+    text-align: right;
 }

@@ -217,4 +217,33 @@ document.addEventListener('DOMContentLoaded', () => {
     if (carouselSlides.length > 0) {
         startCarousel();
     }
+
+    // Mobile Author Interaction (Double-tap)
+    const authors = document.querySelectorAll('.author');
+
+    authors.forEach(author => {
+        author.addEventListener('click', (e) => {
+            // Check if we are on mobile (using the same breakpoint as CSS)
+            if (window.innerWidth <= 768) {
+                // If not already active, prevent navigation and show avatar
+                if (!author.classList.contains('hover-active')) {
+                    e.preventDefault();
+
+                    // Remove active class from all other authors
+                    authors.forEach(a => a.classList.remove('hover-active'));
+
+                    // Add active class to clicked author
+                    author.classList.add('hover-active');
+                }
+                // If already active, allow default behavior (navigation)
+            }
+        });
+    });
+
+    // Close author avatar when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.author')) {
+            authors.forEach(author => author.classList.remove('hover-active'));
+        }
+    });
 });
