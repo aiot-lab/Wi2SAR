@@ -1,0 +1,27 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore logs
+*.log
+npm-debug.log*
+
+# Ignore backup files
+*-bk.png
+*-bk2.png
+*.bak
+bk/
+
+# Ignore temporary files
+.tmp/
+temp/
+
+# Ignore backup folder with large original images
+bk/

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi²SAR | Drone-based Wilderness Search and Rescue</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">Wi²SAR</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#method">Method</a>
+                <a href="#results">Results</a>
+                <span class="nav-item-disabled">Paper (Stay Tuned!)</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="video-container">
+            <video class="video-bg active" autoplay muted playsinline>
+                <source src="assets/videos/drone_search_web.mp4" type="video/mp4">
+            </video>
+            <video class="video-bg buffer" muted playsinline>
+                <source src="assets/videos/drone_search_web.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content fade-up">
+            <h1>"Take Me Home, Wi-Fi Drone"</h1>
+            <p>A Drone-based Wireless System for Wilderness Search and Rescue</p>
+
+            <div class="hero-authors">
+                <a href="https://houwayne.github.io" target="_blank" class="author">
+                    Weiying Hou
+                    <img src="assets/images/weiying.jpg" alt="Weiying Hou" class="author-avatar">
+                </a>
+                <a href="http://1ucayu.github.io/" target="_blank" class="author">
+                    Luca Jiang-Tao Yu
+                    <img src="assets/images/luca.jpg" alt="Luca Jiang-Tao Yu" class="author-avatar">
+                </a>
+                <a href="https://cswu.me" target="_blank" class="author">
+                    Chenshu Wu
+                    <img src="assets/images/chenshu.jpg" alt="Chenshu Wu" class="author-avatar">
+                </a>
+            </div>
+
+            <div class="university">University of Hong Kong</div>
+
+            <p class="acceptance-note">(This work is conditionally accepted by MobiCom 2026.)</p>
+
+            <div class="hero-btns">
+                <a href="#about" class="btn">Discover More</a>
+                <a href="https://github.com/aiot-lab/Wi2SAR" target="_blank" class="btn btn-secondary"><i
+                        class="fab fa-github"></i> Code</a>
+                <a href="#" class="btn btn-secondary btn-paper"><i class="fas fa-file-pdf"></i> <span
+                        class="btn-text">Paper</span><span class="btn-text-hover">Stay Tuned!</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crisis Section -->
+    <section class="section-padding crisis-section">
+        <div class="bg-image" style="background-image: url('assets/images/wisar.jpg');"></div>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <h2 class="section-title fade-up">A Growing Crisis</h2>
+            <p class="crisis-subtitle fade-up">Wilderness Search & Rescue Demands Are Escalating</p>
+
+            <div class="crisis-stats-grid">
+                <div class="crisis-stat-item fade-up">
+                    <div class="crisis-stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3><span class="counter" data-target="11">0</span>%</h3>
+                    <p class="crisis-stat-label">Annual Growth</p>
+                    <p class="crisis-stat-detail">Average increase in WiSAR incidents since 2016 <a href="#footnote-1"
+                            class="inline-footnote">[1]</a></p>
+                </div>
+                <div class="crisis-stat-item fade-up" style="transition-delay: 0.15s;">
+                    <div class="crisis-stat-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3><span class="counter" data-target="79">0</span>%</h3>
+                    <p class="crisis-stat-label">High Casualties Rate</p>
+                    <p class="crisis-stat-detail">Victims suffer injuries in wilderness emergencies <a
+                            href="#footnote-1" class="inline-footnote">[1]</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding abstract challenge-section">
+        <div class="bg-image" style="background-image: url('assets/images/jungle_bg.jpg');"></div>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <h2 class="section-title fade-up">Challenge & Opportunity</h2>
+
+            <div class="challenge-grid">
+                <!-- Challenge Card -->
+                <div class="challenge-card fade-up">
+                    <div class="challenge-icon-container reveal-container">
+                        <img src="assets/images/challenge_icon_rgb.jpg" alt="RGB View"
+                            class="challenge-icon base-image">
+                        <div class="reveal-layer">
+                            <img src="assets/images/challenge_icon_ir.jpg" alt="IR View"
+                                class="challenge-icon reveal-image">
+                        </div>
+                    </div>
+                    <h3>Visual Line-of-sight Obstruction</h3>
+                    <p>Tree canopy creates visual obstruction, even infrared is difficult to penetrate for
+                        identification <a href="#footnote-2" class="inline-footnote">[2]</a></p>
+                </div>
+
+                <!-- Opportunity Card -->
+                <div class="challenge-card opportunity-card fade-up" style="transition-delay: 0.15s;">
+                    <div class="challenge-icon-container">
+                        <img src="assets/images/opportunity.jpg" alt="Wi-Fi Discovery Concept" class="challenge-icon">
+                    </div>
+                    <h3>Wi-Fi for Discovery & Identification</h3>
+                    <p>Find lost person through Wi-Fi device; identify via auto-connection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prototype Section -->
+    <section id="method" class="section-padding method-section">
+        <div class="bg-image" style="background-image: url('assets/images/method_bg.jpg');"></div>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <h2 class="section-title fade-up">Wi<sup>2</sup>SAR Prototype</h2>
+
+            <!-- Drone Sketch -->
+            <div class="drone-sketch-container fade-up">
+                <img src="assets/images/drone_sketch.jpg" alt="Drone Assembly Sketch" class="drone-sketch">
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Techniques Section -->
+    <section class="section-padding method-section">
+        <div class="bg-image" style="background-image: url('assets/images/method_bg.jpg');"></div>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <h2 class="section-title fade-up">Key Techniques</h2>
+
+            <!-- Technique Tags -->
+            <div class="technique-tags fade-up">
+                <button class="technique-tag active" data-slide="0">
+                    <i class="fas fa-satellite-dish"></i> Victim Discovery
+                </button>
+                <button class="technique-tag" data-slide="1">
+                    <i class="fas fa-bullseye"></i> Direction Finding
+                </button>
+                <button class="technique-tag" data-slide="2">
+                    <i class="fas fa-paper-plane"></i> Autonomous Navigation
+                </button>
+            </div>
+
+            <!-- Carousel -->
+            <div class="technique-carousel fade-up">
+                <div class="carousel-track">
+                    <!-- Slide 1: Victim Discovery -->
+                    <div class="carousel-slide active">
+                        <img src="assets/images/auto_connection.jpg" alt="Auto Connection" class="carousel-image">
+                        <div class="carousel-caption">
+                            <h4>Victim Discovery</h4>
+                            <p>
+                                Wi²SAR leverages the automatic reconnection behavior of modern Wi-Fi devices.
+                                By simulating a known network (e.g., home Wi-Fi), the drone elicits identifiable packets
+                                from
+                                the victim's device.
+                                This mechanism enables rapid discovery and identification of the target victim without
+                                requiring
+                                any prior app installation or active user cooperation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Luneburg Lens -->
+                    <div class="carousel-slide">
+                        <img src="assets/images/Luneburg.jpg" alt="Luneburg Lens" class="carousel-image">
+                        <div class="carousel-caption">
+                            <h4>Direction Finding</h4>
+                            <p>
+                                A custom 3D-printed Luneburg Lens is integrated to amplify directional signal strength
+                                differences.
+                                This passive optical device enables a novel RSS-only, long-range 3D Angle-of-Arrival
+                                (AoA)
+                                estimation method.
+                                It significantly extends the operational range and eliminates the need for complex phase
+                                calibration on moving drones.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Autonomous Navigation -->
+                    <div class="carousel-slide">
+                        <img src="assets/images/search.jpg" alt="Autonomous Search" class="carousel-image">
+                        <div class="carousel-caption">
+                            <h4>Autonomous Navigation</h4>
+                            <p>
+                                The system employs an adaptive drone navigation scheme that guides the drone toward the
+                                target
+                                efficiently.
+                                It uses a dual-phase search strategy: an initial exploratory grid search to detect the
+                                signal,
+                                followed by a direction-guided approach
+                                that continuously refines the heading based on real-time AoA estimates to pinpoint the
+                                victim's
+                                location.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="section-padding results-section">
+        <div class="bg-image" style="background-image: url('assets/images/results_bg.jpg');"></div>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <h2 class="section-title fade-up">Field Results</h2>
+
+            <!-- Scrolling Scenario Image -->
+            <div class="scenario-container fade-up">
+                <div class="scenario-scroll">
+                    <!-- Original Set -->
+                    <img src="assets/images/result.jpg" alt="Field Results Data">
+                    <img src="assets/images/trajectory.jpg" alt="Drone Flight Trajectory">
+                    <img src="assets/images/scenario.jpg" alt="Field Scenario">
+                    <!-- Duplicate Set for Seamless Loop -->
+                    <img src="assets/images/result.jpg" alt="Field Results Data">
+                    <img src="assets/images/trajectory.jpg" alt="Drone Flight Trajectory">
+                    <img src="assets/images/scenario.jpg" alt="Field Scenario">
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item fade-up">
+                    <h3><span class="counter" data-target="104">0</span>%</h3>
+                    <p>Range Extension</p>
+                </div>
+                <div class="stat-item fade-up" style="transition-delay: 0.1s;">
+                    <h3><span class="counter" data-target="18.4" data-decimals="1">0</span>°</h3>
+                    <p>Median Angular Error</p>
+                </div>
+                <div class="stat-item fade-up" style="transition-delay: 0.2s;">
+                    <h3><span class="counter" data-target="100">0</span>%</h3>
+                    <p>Discovery Rate</p>
+                </div>
+                <div class="stat-item fade-up" style="transition-delay: 0.3s;">
+                    <h3><span class="counter" data-target="5">0</span>m</h3>
+                    <p>Localization Accuracy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://github.com/aiot-lab/Wi2SAR" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" class="grayed"><i class="fas fa-file-pdf"></i></a>
+                <a href="#" class="grayed"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="footnotes">
+                <p id="footnote-1"><sup>[1]</sup> Source: <a
+                        href="https://www.mountain.rescue.org.uk/annual_review/annual-review-2024/" target="_blank"
+                        rel="noopener">Mountain Rescue England and Wales Annual Review (2024)</a></p>
+                <p id="footnote-2"><sup>[2]</sup> Source: <a href="https://sites.google.com/uw.edu/wisard/"
+                        target="_blank" rel="noopener">WiSARD Database</a></p>
+
+            </div>
+
+            <div class="footer-logo-container">
+                <img src="assets/images/HKU-cds.png" alt="HKU CDS" class="footer-logo">
+                <img src="assets/images/HKU-aiot.png" alt="HKU AIoT Lab" class="footer-logo">
+            </div>
+            <p>&copy; 2026 HKU AIoT Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
