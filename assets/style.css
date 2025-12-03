@@ -97,6 +97,12 @@ nav.scrolled {
     letter-spacing: 1px;
 }
 
+.logo-img {
+    height: 30px;
+    width: auto;
+    display: block;
+}
+
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
