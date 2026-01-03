@@ -187,6 +187,8 @@ def direction_finding(measure_file_path, interpolated_beam_pattern_avg, layout, 
             write_log(log_filename, "True angles are not provided.")
             write_log(log_filename, f"Predicted angles: {predicted_angles}")
 
+    return true_angles, predicted_angles
+
 
 def check_if_same_or_empty(file_path, log_filename):
     mac = os.path.basename(file_path).split(".")[0]
@@ -353,7 +355,7 @@ def main(data_dir, realtime, calibration, no_plot, pos_elevation):
         else:
             logger.info("Running batch processing.")
             measure_file_path = os.path.join(data_dir, 'test.tsv')
-            direction_finding(measure_file_path, interpolated_beam_pattern_avg, layout, log_filename,
+            return direction_finding(measure_file_path, interpolated_beam_pattern_avg, layout, log_filename,
                             alg_list=["a_BcRxB"],
                             no_plot=no_plot, realtime=realtime,
                             pos_elevation=pos_elevation)

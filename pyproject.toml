@@ -1,0 +1,57 @@
+[project]
+name = "wi2sar"
+version = "0.1.0"
+description = "Wi²SAR: A drone-based wireless system for wilderness search and rescue"
+authors = [
+    {name = "Weiying Hou", email = "weiying_hou@outlook.com"},
+]
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+keywords = ["wireless", "drone", "search-and-rescue", "direction-finding", "wifi"]
+
+
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.1.0",
+    "matplotlib>=3.8.0",
+    "scipy>=1.11.0",
+    "plotly>=5.22.0",
+    "PyYAML>=6.0.0",
+    "loguru>=0.7.2",
+    "ipykernel>=6.25.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+docs = [
+    "sphinx>=7.3.0",
+    "sphinx-rtd-theme>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://aiot-lab.github.io/Wi2SAR"
+Documentation = "https://aiot-lab.github.io/Wi2SAR"
+Repository = "https://github.com/aiot-lab/Wi2SAR"
+Organization = "https://aiot.hku.hk"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["module"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
