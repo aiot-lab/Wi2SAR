@@ -1,4 +1,4 @@
-# "Take Me Home, Wi-Fi Drone": Design and Implementation of an Autonomous Wi-Fi Drone System for Wilderness Search and Rescue
+# "Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue
 
 ## Overview
 
@@ -197,7 +197,7 @@ If you use this code in your research, please cite our paper (under review):
 
 ```bibtex
 @inproceedings{wi2sar2026,
-  title={Take Me Home, Wi-Fi Drone: Design and Implementation of an Autonomous Wi-Fi Drone System for Wilderness Search and Rescue},
+  title={"Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue},
   author={Hou, Weiying and Yu, Luca Jiang-Tao and Wu, Chenshu},
   booktitle={ACM MobiCom},
   year={2026}
