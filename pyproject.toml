@@ -13,7 +13,6 @@ keywords = ["wireless", "drone", "search-and-rescue", "direction-finding", "wifi
 
 dependencies = [
     "numpy>=1.26.0",
-    "pandas>=2.1.0",
     "matplotlib>=3.8.0",
     "scipy>=1.11.0",
     "plotly>=5.22.0",

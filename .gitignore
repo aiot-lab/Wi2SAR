@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Data cache files (keep source data, ignore derived/cached)
+data/**/*.pkl
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated
+.DS_Store
+.DS_Store?
+Thumbs.db
