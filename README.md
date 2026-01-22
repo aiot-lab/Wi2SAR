@@ -45,7 +45,7 @@ wisar_website/
 
 ## Publication
 
-This work is conditionally accepted by MobiCom 2026.
+This work is accepted by MobiCom 2026.
 
 ## License
 

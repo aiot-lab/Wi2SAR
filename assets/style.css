@@ -387,6 +387,7 @@ nav.scrolled {
 .method-section,
 .results-section,
 .challenge-section,
+.opportunity-section,
 .crisis-section {
     position: relative;
     overflow: hidden;
@@ -424,6 +425,7 @@ nav.scrolled {
 .method-section .container,
 .results-section .container,
 .challenge-section .container,
+.opportunity-section .container,
 .crisis-section .container {
     position: relative;
     z-index: 2;
