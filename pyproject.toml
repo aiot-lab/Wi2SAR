@@ -7,7 +7,7 @@ authors = [
 ]
 readme = "README.md"
 license = {text = "Apache-2.0"}
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 keywords = ["wireless", "drone", "search-and-rescue", "direction-finding", "wifi"]
 
 

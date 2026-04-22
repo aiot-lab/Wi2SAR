@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the source code for the Direction Finding Module in our Wi-Fi Drone System. Our paper has been accepted by [ACM MobiCom 2026](https://www.sigmobile.org/mobicom/2026/).
+This repository contains the source code for the Direction Finding Module in our Wi-Fi Drone System. Our paper is under review in Mobicom 2026.
 
 ---
 
@@ -193,19 +193,14 @@ To add a new test case:
 
 ## Citation
 
-If you use this code in your research, please cite our paper:
+If you use this code in your research, please cite our paper (under review):
 
 ```bibtex
 @inproceedings{wi2sar2026,
   title={"Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue},
   author={Hou, Weiying and Yu, Luca Jiang-Tao and Wu, Chenshu},
-  booktitle={The 32nd Annual International Conference on Mobile Computing and Networking (MobiCom '26)},
-  year={2026},
-  month={October},
-  address={Austin, TX, USA},
-  publisher={ACM},
-  doi={10.1145/3795866.3796679},
-  isbn={979-8-4007-2505-0/2026/10}
+  booktitle={ACM MobiCom},
+  year={2026}
 }
 ```
 
