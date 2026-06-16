@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the source code for the Direction Finding Module in our Wi-Fi Drone System. Our paper is under review in Mobicom 2026.
+This repository contains the source code for the Direction Finding Module in our Wi-Fi Drone System. Our paper is ~~under review in~~ **accepted by** Mobicom 2026.
 
 ---
 
