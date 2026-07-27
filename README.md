@@ -1,4 +1,24 @@
+<div align="center">
+
 # "Take Me Home, Wi-Fi Drone": A Drone-based Wireless System for Wilderness Search and Rescue
+
+   <a href=https://houwayne.github.io/>
+     Weiying Hou   
+    </a>
+    ,
+    <a href=https://1ucayu.github.io/>
+        Luca Jiang-Tao Yu
+    </a>
+    ,
+    <a href=https://cswu.me/>
+        Chenshu Wu
+    </a>
+</div>
+
+<div align="center">
+
+The University of Hong Kong
+</div>
 
 ## Overview
 
@@ -209,3 +229,15 @@ If you use this code in your research, please cite our paper (under review):
 ## License
 
 Apache License 2.0 - See [LICENSE](LICENSE) for details.
+
+---
+<p align="center">
+  <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current"><img src="assets/badges/acm_artifacts_available_v1_1.png" alt="ACM Artifacts Available v1.1" height="96"></a>
+  <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current"><img src="assets/badges/acm_artifacts_evaluated_functional_v1_1.png" alt="ACM Artifacts Evaluated - Functional v1.1" height="96"></a>
+  <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current"><img src="assets/badges/acm_artifacts_evaluated_reusable_v1_1.png" alt="ACM Artifacts Evaluated - Reusable v1.1" height="96"></a>
+  <a href="https://www.acm.org/publications/policies/artifact-review-and-badging-current"><img src="assets/badges/acm_results_reproduced_v1_1.png" alt="ACM Results Reproduced v1.1" height="96"></a>
+</p>
+
+<p align="center">
+  <em>This artifact received all four ACM reproducibility badges — <strong>Artifacts Available</strong>, <strong>Functional</strong>, <strong>Reusable</strong>, and <strong>Results Reproduced</strong> — from the MobiCom 2026 Artifact Evaluation Committee.</em>
+</p>
