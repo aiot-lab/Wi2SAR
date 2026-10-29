@@ -20,6 +20,8 @@
 The University of Hong Kong
 </div>
 
+<p align="center"><strong>🏆 ACM MobiCom 2026 Best Artifact Award</strong></p>
+
 ## Overview
 
 This repository contains the source code for the Direction Finding Module in our Wi-Fi Drone System. Our paper is ~~under review in~~ **accepted by** Mobicom 2026.
