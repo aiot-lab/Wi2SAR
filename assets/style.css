@@ -756,11 +756,18 @@ nav.scrolled {
     text-align: center;
 }
 
+.artifact-award {
+    color: #f7d47e;
+    font-size: 1.1rem;
+    margin: -1.5rem auto 1.25rem;
+    max-width: 640px;
+}
+
 .artifact-subtitle {
     text-align: center;
     font-size: 1.15rem;
     color: var(--text-secondary);
-    margin: -2rem auto 3rem;
+    margin: 0 auto 3rem;
     max-width: 640px;
     font-weight: 300;
 }
@@ -1073,6 +1080,38 @@ footer p {
     margin-bottom: 2.5rem;
     font-style: italic;
     opacity: 0.8;
+}
+
+.hero .award-note {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+    max-width: 100%;
+    padding: 0.65rem 1.15rem;
+    margin: -1.25rem 0 2rem;
+    border: 1px solid rgba(247, 212, 126, 0.4);
+    border-radius: 999px;
+    background: rgba(247, 212, 126, 0.08);
+    color: #f7d47e;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-wrap: balance;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        min-height: 100svh;
+        padding: 6rem 0 3rem;
+    }
+
+    .hero .award-note {
+        font-size: 0.85rem;
+        padding: 0.6rem 0.9rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
 .university {
